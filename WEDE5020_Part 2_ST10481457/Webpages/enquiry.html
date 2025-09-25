@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOOKA SOLUTIONS ENQUIRY PAGE</title>
+    <!--Enquiry Page CSS-->
+     <link rel="stylesheet" href="css/enquiry.css">
+</head>
+<body bgcolor="#87CEFA">
+    <header>
+        
+        <nav> 
+            <div class="Logo"><img src="Images/Cleaning_logo.jpg" alt="Company Logo" width="200px"></div><h1>MOOKA SOLUTIONS</h1>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <p><b>Please fill out this form as we hope to hear from you soon:</b></p>
+    <hr>
+        <form action="action_page.php" method="POST">
+        <div>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" placeholder="John" required>
+        </div>
+        
+        <br>
+
+        <div>
+        <label for="lsurname">Last Name:</label>
+        <input type="text" id="lname" placeholder="Doe" required>
+        </div>
+
+        <br>
+
+        <div>
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="pass" maxlength="12" required>
+        </div>
+
+        <br>
+
+        <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="johndoe@gmail.com" required>
+        </div>
+
+        <br>
+
+        <div>
+        <label for="phone">Phone <N class="O"></N>:</label>
+        <input type="tel" id="phone" placeholder="(+27) 11 985 0529" required>
+        </div>
+
+        <br>
+
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        
+        <br>
+
+        <div class="checkbox-group">
+        <label>I agree to the <a href="#">Privacy Policy</a></label>
+        <input type="checkbox" name="privacy" required>
+        </div>
+        
+        <label for="Subscribe">Subscribe:</label>
+        <input type="Checkbox" id="Subscribe" name="Subscribe">
+    
+        <div>
+        <button type="submit">Submit Enquiry</button>
+        </div>
+        <br>
+        <div>
+
+
+
+    
+    <hr>
+    <footer>
+        <p>&copy; Copyright - MOOKA SOLUTIONS (PTY) LTD. All rights reserved.</p>
+    </footer>
+    <hr>
+</body>
+</html>
